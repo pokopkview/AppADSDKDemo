@@ -1,0 +1,15 @@
+package ad.joyplus.com.testdemo;
+
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+
+import ad.joyplus.com.myapplication.R;
+
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+    }
+}
